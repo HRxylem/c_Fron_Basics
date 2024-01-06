@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    int a, b, c, d;
+   // c=a + b;
+    printf("enter the numbers");
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    a= b-c;
+    b=c+d;
+    c=a - b;
+    d=b+a;
+    printf("the value of a, b, c, d is %d %d %d %d",a, b, c,d);
+    return 0;
+    
+}
